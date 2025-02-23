@@ -1,0 +1,70 @@
+<html>
+<head>
+<title> A Sample Online Form </title>
+</head>
+<body>
+
+<!-- change to the URL for your CGI program to process the inputs !-->
+<FORM METHOD="get" ACTION="http://YOUR_ITSC_LOGIN.student.ust.hk/cgi-bin/YOUR_CGI_PROGRAM.php">
+
+<!-- Hidden field:" for example, youcan use it to pass the session ID from one request to the next one -->
+<INPUT TYPE="hidden" NAME="sessionID" VALUE="AJ_session_XXX">
+
+
+<h1>Sample On-line Form</h1>
+
+<hr> Please fill and press the "<b>Submit Query</b>" button to submit the form. Press the "<b>Reset</b>" button to reset the fields to default values.<br>
+
+
+<h2>Radio Button Sample:</h2>
+
+<INPUT TYPE="radio" NAME="question1" value=1 CHECKED> Radio Button 1 <br>
+<INPUT TYPE="radio" NAME="question1" value=2> Radio Button 2 <br>
+<INPUT TYPE="radio" NAME="question1" value=2> Radio Button 3 
+<p>
+
+<h2>Input Field Samples</h2>
+<p>Your Name (optional): <INPUT NAME="f_name" value="" size=30></p>
+
+<h2>Selection List Sample</h2>
+	<select name="Overall">
+	<option> Very good
+	<option> good
+	<option> Average
+	<option> Bad
+	<option> Very Bad
+	</select> <BR>
+
+<h2>
+
+Text Area Sample</h2>
+
+ <TEXTAREA NAME="comment" ROWS=3 COLS=80>
+ </TEXTAREA>
+<p>
+<INPUT TYPE="Submit" value="Submit Query"> 
+<INPUT TYPE="Reset" value="Reset">
+
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
