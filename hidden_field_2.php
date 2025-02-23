@@ -16,7 +16,7 @@
   $session_name = $name . $pin;
 ?>
 
-<form method="POST" action="hidden_field_3.php">
+<form method="POST" action="/cgi-bin/hidden_field_3.php">
     <b>What is your favorite course?</b><br>
     <input name="favorite_course" type="text" size=25>
     <input type="hidden" name="session_name" value="<?php echo $session_name; ?>">

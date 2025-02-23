@@ -17,7 +17,7 @@ setcookie($cookie_name, "active", time() + (20 * 60));
 <body bgcolor="#DDDDDD">
 <p>I have set a cookie called <?php echo $cookie_name; ?> on your computer. To delete this cookie, click on the following button.</p>
 
-<form method="POST" action="cookies_2.php">
+<form method="POST" action="/cgi-bin/cookies_2.php">
     <input type="hidden" name="cookie_name" value="<?php echo $cookie_name; ?>">
     <input type="submit" value="Delete Cookie">
 </form>
